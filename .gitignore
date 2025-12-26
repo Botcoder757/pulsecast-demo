@@ -1,0 +1,30 @@
+# Environment variables (SENSITIVE!)
+.env
+**/.env
+
+# Node modules
+node_modules/
+**/node_modules/
+
+# Google Cloud credentials
+*.json
+**/*.json
+gcloud-key.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build outputs
+dist/
+build/
